@@ -60,3 +60,4 @@ Now, you're all set to use the lip reading app for transcribing spoken words fro
 ## Notes
 
 This project is an excellent demonstration of how advanced machine learning models like LipNet can be integrated into real-world applications. It showcases the synergy between artificial intelligence and full-stack development to create a powerful and user-friendly product.
+
