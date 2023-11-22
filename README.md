@@ -4,8 +4,6 @@ This repository contains an application for lip reading based on LipNet, an adva
 
 <img width="640" alt="ML_Streamlit_LiptNet" src="https://github.com/TobiasMaissen/LipNet_Tensorflow/assets/38552872/e1c5c08a-5ebc-4d36-835f-c16ae3ac1c3c">
 
-
-
 ## What is LipNet?
 
 LipNet is an advanced machine learning model developed to analyze lip movements and transcribe words. It utilizes neural networks and deep learning to accomplish this task. LipNet has the potential to be valuable in various applications, including improving accessibility for the hearing-impaired, enhancing speech recognition in noisy environments, and applications in forensics.
@@ -30,7 +28,6 @@ This project goes beyond implementing the LipNet model and presents a comprehens
 
 - `load_model()`: This function constructs the LipNet model by defining a sequence of layers, including 3D convolution, LSTM, dense layers, and more. It also loads the model weights from a checkpoint.
 
-
 Here's a user guide section for your README file based on the provided instructions:
 
 ---
@@ -40,14 +37,17 @@ Here's a user guide section for your README file based on the provided instructi
 Before getting started with the LipNet-based lip reading app, please follow these steps:
 
 1. **Environment Setup:**
+
    - Make sure you have Python 3.9 installed.
    - Check the specific versions of the dependencies in the `LipNet_github.ipynb` notebook. It's crucial to use these versions to avoid any errors.
 
 2. **Data and Checkpoints:**
+
    - In the `LipNet_github.ipynb` notebook, you'll find links to download the necessary data and model checkpoints.
    - Create a folder named 'models' to store the downloaded checkpoint files. This will save you from the need to train the model from scratch.
 
 3. **App Setup:**
+
    - Create a folder named 'app' in your project directory.
    - Inside the 'app' folder, place the following Python files: `utils.py`, `streamlitapp.py`, and `modelutil.py`.
 
@@ -60,4 +60,3 @@ Now, you're all set to use the lip reading app for transcribing spoken words fro
 ## Notes
 
 This project is an excellent demonstration of how advanced machine learning models like LipNet can be integrated into real-world applications. It showcases the synergy between artificial intelligence and full-stack development to create a powerful and user-friendly product.
-
